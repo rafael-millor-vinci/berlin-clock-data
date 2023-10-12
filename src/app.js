@@ -1,20 +1,20 @@
 export class BerlinCLock {
 
-    
+
     minuteLine(time){
-        if (time===0) {
+        if (time%5===0) {
             return "XXXX"
         }
-        if (time===1) {
+        if (time%5===1) {
             return "JXXX"
         }
-        if (time===2) {
+        if (time%5===2) {
             return "JJXX"
         }
-        if (time===3) {
+        if (time%5===3) {
             return "JJJX"
         }
-        if (time===4) {
+        if (time%5===4) {
             return "JJJJ"
         }
 
